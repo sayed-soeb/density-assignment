@@ -1,6 +1,24 @@
 .App {
   text-align: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&display=swap');
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 98vw;
+    margin: auto;
+  }
+}
+
 
 .App-logo {
   height: 40vmin;
